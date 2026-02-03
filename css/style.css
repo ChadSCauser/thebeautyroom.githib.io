@@ -774,6 +774,14 @@ footer{
 
 
 @media(max-width:550px){
+
+        .footer-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+        align-items: center;
+    }
+
         #partners{ 
         grid-template-columns: 1fr 1fr;
     }
@@ -1051,19 +1059,24 @@ footer{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-column-gap: 50px;
     margin-top: -20px;
     justify-content: center;
     align-content: center;
     border-radius: 3%;
+    color: rgb(81, 79, 79);
     
 }
 
 .pricing-header h2{
+    position: relative;
     text-align: center;
-        padding-top: 20px;
+    padding-top: 20px;
     padding-bottom: 20px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
 }
+
 
 .pricing-detail{
   display: flex;
@@ -1086,16 +1099,28 @@ footer{
 }
 
 .pricing-header {
-    width: 75%;
+    width:95%;
     justify-content: center;
     align-items: center;
     margin: 25px auto;
-    background-color: #90829a42;
+    background: #f4f0f7;
     border-radius: 3%;
     padding-bottom: 30px;
     box-shadow: 2px 2px 30px rgba(0,0,0,0.3);
     border:rgb(109, 53, 118) 5px solid;
 
+}
+
+@media only screen and (max-width:810px){
+
+.pricing-wrapper{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.pricing-detail{
+  line-height: 2;
+
+}
 }
 
 
