@@ -100,16 +100,17 @@
             <p class="paragraph1">Use the form below to send us an email with any requests.</p>
             <p class="paragraph1"><b>Please Note:</b> We normally respond quicker to requests via our personal & work phone or social media accounts, but we do try and review emails to ensure we get back to any requests ASAP - Thanks.</p>
             <div class="contact-form">
-            <form action="#">
+            <form action="https://api.web3forms.com/submit" method="POST">
                 <h1 class="sub-heading">Get in touch<hr></h1>
                 
                 <p class="para2">
                     Contact us to find out more information or book an appointment for a treatment.
                 </p>
-                <input type="text" class="input" placeholder="Your name">
-                <input type="text" class="input" placeholder="Your email">
-                <input type="text" class="input" placeholder="Subject">
-                <textarea class="input" cols="30" rows="5"></textarea>
+                <input type="hidden" name="access_key" value="a5caefd3-0afc-4895-811f-4793393765aa">
+                <input type="text" name="name" class="input" placeholder="Name" required>
+                <input type="text" name="email" class="input" placeholder="Email Address" required>
+                <input type="text" name="subject" class="input" placeholder="Subject" required>
+                <textarea class="input" name="message" placeholder="Message" cols="30" rows="5" required></textarea>
                 <input type="submit" class="input submit" value="Send Message">
             </form>
 
