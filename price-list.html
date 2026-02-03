@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-AU-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Beauty Room - Home</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        /*  
+        @keyframes appear{
+            from{
+                opacity: 0;
+                scale: 0.5;
+            }
+            to{
+                opacity: 1;
+                scale: 1;
+            }
+        }
+
+        #treatment-range-title{
+            animation: appear 3s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+
+        .treatment-range{
+            animation: appear 3s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+
+        #more-info-title{
+            animation: appear 3s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+
+        .more-info{
+            animation: appear 3s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+
+        #photo-gallery-title{
+            animation: appear 3s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+
+        #image-carousel{
+            animation: appear 3s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+
+        #partners{
+            animation: appear 3s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+
+        */
+    </style>
+    
+    </head>
+    <body>
+        <nav> 
+            <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20"viewBox="0 0 640 640" width="45">><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z"/></svg></a></li>
+            <li><a href="#">the&nbsp;<b>beauty</b>&nbsp;room</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/price-list.html">Price List</a></li>
+            <li><a href="/reviews.html">Reviews</a></li> 
+            <li><a href="/contact-us.html">Contact Us</a></li>   
+            </ul>
+            <ul>
+            <li><a href="#">the&nbsp;<b>beauty</b>&nbsp;room</a></li>
+            <li class="hideOnMobile"><a href="/index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="/price-list.html">Price List</a></li>
+            <li class="hideOnMobile"><a href="/reviews.html">Reviews</a></li> 
+            <li class="hideOnMobile"><a href="/contact-us.html">Contact Us</a></li>
+            <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="20"viewBox="0 0 640 640" width="45"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z"/></svg></a></li>    
+            </ul>
+        </nav>
+
+
+        <section id="pricing">
+            <div class="pricing-heading">
+                <h3>Our Pricing List</h3>
+                </div>
+        </section>
+
+        <section id="pricing-section">
+            <div class="pricing-wrapper">
+                <div class="pricing-header">
+                    <h2>Manicure & Pedicure</h2>
+                
+                <div class="pricing-detail">
+                    <span class="treatment-name">Polish Manicure</span>
+                    <span class="cost">£23.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Prescriptive Manicure</span>
+                    <span class="cost">£30.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Nail Paint</span>
+                    <span class="cost">£15.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Polish Pedicure</span>
+                    <span class="cost">£30.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Prescriptive Pedicure</span>
+                    <span class="cost">£35.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Toe Nail Paint</span>
+                    <span class="cost">£15.00</span>
+                </div> 
+
+                <div class="pricing-header-2">
+                    <h2>OPI Gel & Calgel</h2>
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">OPI Manicure</span>
+                    <span class="cost">£30.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">OPI Gel Manicure & Calgel</span>
+                    <span class="cost">£35.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">OPI Gel Procedure</span>
+                    <span class="cost">£35.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">OPI Gel Manicure & Pedicure</span>
+                    <span class="cost">£65.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Removal of Gel</span>
+                    <span class="cost">£8.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Removal of Gel & Mini Manicure</span>
+                    <span class="cost">£25.00</span>
+                </div> 
+                                <div class="pricing-detail">
+                    <span class="treatment-name">Prescriptive OPI Gel Manicure</span>
+                    <span class="cost">£40.00</span>
+                </div> 
+                                <div class="pricing-detail">
+                    <span class="treatment-name">Prescriptive OPI Gel Manicure</span>
+                    <span class="cost">£45.00</span>
+                </div> 
+                                <div class="pricing-detail">
+                    <span class="treatment-name">Handmade Calgel Extensions</span>
+                    <span class="cost">£47.00</span>
+                </div> 
+                                <div class="pricing-detail">
+                    <span class="treatment-name">Gel Extension - Per Nail </span>
+                    <span class="cost">£2.50</span>
+                </div> 
+                </div>
+                </div>
+
+                <div class="pricing-header">
+                    <h2>Massage</h2>
+                
+                <div class="pricing-detail">
+                    <span class="treatment-name">Hot Stone Back - 30min</span>
+                    <span class="cost">£37.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Hot Stone Full Body - 60min</span>
+                    <span class="cost">£52.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Aromatherapy Back - 30min</span>
+                    <span class="cost">£33.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Aromatherapy Full Body - 60min</span>
+                    <span class="cost">£47.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Swedish Back - 30min</span>
+                    <span class="cost">£35.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Swedish Full Body - 60min</span>
+                    <span class="cost">£47.00</span>
+                </div> 
+
+                                <div class="pricing-detail">
+                    <span class="treatment-name">Aromatherapy Back & Scalp - 45min</span>
+                    <span class="cost">£38.00</span>
+                </div> 
+
+                                                <div class="pricing-detail">
+                    <span class="treatment-name">Swedish Back & Scalp - 45min</span>
+                    <span class="cost">£38.00</span>
+                </div> 
+
+                <div class="pricing-header-2">
+                    <h2>Lashes & Brows</h2>
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Lash Tinting</span>
+                    <span class="cost">£14.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Eyebrow Wax</span>
+                    <span class="cost">£10.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Eyebrow Tinting</span>
+                    <span class="cost">£12.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Eyebrow Wx & Tint</span>
+                    <span class="cost">£19.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Eyebrow Tweeze & Shape</span>
+                    <span class="cost">£5.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Eyebrow Lift</span>
+                    <span class="cost">£30.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Eyebrow Lift & Tint</span>
+                    <span class="cost">£35.00</span>
+                </div> 
+                </div>
+                </div> 
+
+               <div class="pricing-header">
+                    <h2>Waxing</h2>
+                
+                <div class="pricing-detail">
+                    <span class="treatment-name">Full Leg</span>
+                    <span class="cost">£30.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Half Leg</span>
+                    <span class="cost">£23.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Basic Bikini Line</span>
+                    <span class="cost">£16.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Extended Bikini Line</span>
+                    <span class="cost">£19.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Brazillian Bikini</span>
+                    <span class="cost">£25.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Hollywood Bikin</span>
+                    <span class="cost">£35.00</span>
+                </div> 
+
+                                <div class="pricing-detail">
+                    <span class="treatment-name">Underarm</span>
+                    <span class="cost">£15.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Chin</span>
+                    <span class="cost">£8.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Lip</span>
+                    <span class="cost">£8.00</span>
+                </div> 
+
+                                <div class="pricing-detail">
+                    <span class="treatment-name">Lip & Chin</span>
+                    <span class="cost">£14.00</span>
+                </div> 
+
+                                <div class="pricing-detail">
+                    <span class="treatment-name">Back - From</span>
+                    <span class="cost">£22.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Chest - From</span>
+                    <span class="cost">£19.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Arm - From</span>
+                    <span class="cost">£15.00</span>
+                </div> 
+
+                <div class="pricing-header-2">
+                    <h2>Tanning</h2>
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Spray Tan</span>
+                    <span class="cost">£25.00</span>
+                </div> 
+                </div>
+                </div> 
+
+                <div class="pricing-header">
+                    <h2>MONU Facial Treatments</h2>
+                
+                <div class="pricing-detail">
+                    <span class="treatment-name">Express Facial - 30min</span>
+                    <span class="cost">£35.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Flash Facial - 30min</span>
+                    <span class="cost">£39.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Bio Eye Tech - 30min</span>
+                    <span class="cost">£39.00</span>
+                </div> 
+                <div class="pricing-detail">
+                    <span class="treatment-name">Prescriptive Facial - 60min</span>
+                    <span class="cost">£49.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Aromatic Facial - 60min</span>
+                    <span class="cost">£45.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Hydra-Lift Facial - 60min</span>
+                    <span class="cost">£62.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Intense Lift Facial</span>
+                    <span class="cost">£75.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Wrinkle Solution Eye Treatment - 60min</span>
+                    <span class="cost">£59.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Express Sculpt & Lift Facial - 40min</span>
+                    <span class="cost">£37.00</span>
+                </div> 
+
+                <div class="pricing-header-2">
+                    <h2>MONU Body Treatments</h2>
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Polish Perfect - 30min</span>
+                    <span class="cost">£33.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Exotic Hot Oil & Salt Scrub - 60min</span>
+                    <span class="cost">£45.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Thermal Back - 60min</span>
+                    <span class="cost">£42.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Lime & Walnut Wrap - 60min</span>
+                    <span class="cost">£52.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Conditioning Coconut Ritual - 60min</span>
+                    <span class="cost">£52.00</span>
+                </div> 
+
+                <div class="pricing-detail">
+                    <span class="treatment-name">Ultimate Signature Ritual - 120min</span>
+                    <span class="cost">£74.00</span>
+                </div> 
+                </div>
+                </div> 
+            </div>
+        </section>
+
+        <section id="partners">
+            <div class="partners-heading">
+                <h3>Our Partners</h3>
+            </div>
+
+            <div class="logo-container">
+                <img src="images/monu.png">
+                <img src="images/opi.jpg">
+                <img src="images/kaeso.png">
+                <img src="images/flive.png">
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-company-box">
+                    <strong>The Beauty Room</strong>
+                    <p>Social Accounts:</p>
+                    <div class="footer-socials">
+                        <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-link-box">
+                 <strong>Contact Us</strong>
+                    <ul>
+                        <li><a href="#"> <i class="fa-regular fa-house"></i>&nbsp;1A Church St, Bridgnorth WV16 4EQ</a></li>
+                        <li><a href="#"> <i class="fa-solid fa-phone"></i>&nbsp;07376064477</a></li>
+                        <li><a href="#"> <i class="fa-solid fa-envelope"></i>&nbsp;thebeautyroom1a@hotmail.co.uk</a></li>
+                    </ul>
+                </div>
+                <div class="footer-link-box">
+                   <strong>Main Link's</strong>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Term's and Condition's</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="footer-owner">The Beauty Room ™</span>
+                <span class="copyright">© Copyright 2026</span>
+            </div>
+        </footer>
+   
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex';
+            siebar.style.display = '0px auto'
+            }
+
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none';
+            }
+    </script> 
+    </body>
+</html>
